@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form, Painting Sample, (Personal Project)</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <main>
+    <h1 id="title"> 
+      Request a Sample
+    </h1>
+      <link rel="stylesheet" href="./style.css">
+      <body>
+    <p id="description">
+       Sample requests may be submitted until 9pm EST.  <br>All requests require manager approval.
+    </p>
+    
+    <form id="survey-form"> 
+   <div>
+     <label id="name-label" for="name"><br>
+     <input id="name" type="text" placeholder="Name" type="name" required>
+       </label>
+   </div>
+      
+   <div>
+     <label id="email-label" for="email"><br>
+       </label>
+     <input id="email" type="email" placeholder="E-Mail" type="email" required>
+   </div>
+      
+   <div>
+     <label id="number-label" for="number"><br>
+     <input id="number" placeholder="--" type="number" min="1" max=10>
+       </label><br><br>
+   </div>
+      
+      <label for="dropdown">Color:</label>
+      <select name="color" id="dropdown">
+        <option value="Raw Sienna">Raw Sienna</option>
+        <option value="Magenta">Magenta</option>
+        <option value="Apricot">Apricot</option>
+        <option value="Evergreen">Evergreen</option>
+      </select><br><br>
+
+      <div><label for="Small">
+        <input id="Small" value="Small" type="radio" name="sizes">Small
+      </label>
+      <label for="Large">
+        <input id="Large" value="Large" type="radio" name="sizes">Large
+        </label><br><br></div>
+      
+      <div><label for="matte">
+        <input id="matte" value="Matte" type="checkbox" name="texture">Matte
+      </label>
+      <label for="gloss">
+        <input id="gloss" value="Gloss" type="checkbox" name="texture">Gloss
+      </label>
+        <label for="semi-gloss">
+        <input id="semi-gloss" value="Semi-Gloss" type="checkbox" name="texture">Semi-Gloss
+      </label><br><br></div>
+      
+      <div>
+        <textarea type="text">Additional Comments</textarea><br><br>
+      </div>
+      
+      <div>
+        <button id="submit" type="submit">Submit</button>
+      </div>
+    </form>
+    </body>
+  </main>
+</html>
+<!-- partial -->
+  
+</body>
+</html>

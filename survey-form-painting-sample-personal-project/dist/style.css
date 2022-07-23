@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+body {
+  background: url(https://mtcopeland.com/wp-content/uploads/2021/12/shutterstock_768245098-min-2048x1365.jpg.webp);
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Pacifico', sans-serif;
+  font-size: 2 px;
+  text-align: center;
+  max-width: 600px;
+}
+h1 {
+  font-size: 45px;
+  background-color: white;
+  align-items: center;
+  text-align: center;
+  border-radius: 2em;
+  padding: 10px;
+}
+p {
+  font-size: 14px;
+  background-color: white;
+  font-family: sans-serif;
+  text-align: center;
+  align-items: center;
+  border-radius: 2em;
+  padding: 10px;
+}
+form {
+  font-size: 20px;
+  font-family: 'Pacifico', sans-serif;
+  align-items: center;
+  text-align: center;
+  border-radius: 2em;
+  padding: 10px;
+}
+input {
+  font-family: 'Pacifico', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  align-items: center;
+    border-radius: 2em;
+  padding: 10px;
+}
+select{
+  font-family: 'Pacifico', sans-serif;
+  font-size: 18px;
+  border-radius: 2em;
+  align-items: center;
+  text-align: center;
+}
+textarea {
+    height: 100px;
+    width: 600px;
+    border-radius:3em;
+    text-align: center;
+    font-family: 'Pacifico', sans-serif;
+    font-size: 15px;
+}
+button{
+  font-family: 'Pacifico', sans-serif;
+  border-radius: 2em;
+  padding: 10px;
+}
